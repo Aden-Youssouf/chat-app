@@ -5,12 +5,13 @@ const users = [
   {
     name: 'Robert Reyes',
     avatar: 'https://randomuser.me/api/portraits/men/28.jpg',
-    online: false
+    online : false 
+    
   },
   {
     name: 'Nellie Caldwell',
     avatar: 'https://randomuser.me/api/portraits/women/17.jpg',
-    online: true
+    online: false
   },
   {
     name: 'Vernon Mason',
@@ -25,7 +26,7 @@ const users = [
   {
     name: 'Juanita Phillips',
     avatar: 'https://randomuser.me/api/portraits/women/55.jpg',
-    online: true
+    online: false
   }
 ];
 const contactlist = () => (
